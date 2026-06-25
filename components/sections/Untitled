@@ -1,0 +1,99 @@
+export default function ProfileSection() {
+return ( <section className="section-container pb-10">
+
+```
+  <div className="glass-card p-8 md:p-12">
+
+    <div className="
+      grid
+      grid-cols-1
+      md:grid-cols-2
+      gap-10
+    ">
+
+      {/* LEFT */}
+      <div className="space-y-8">
+
+        <div>
+          <p className="text-gray-400 mb-2">Birthday</p>
+          <h3 className="text-2xl font-bold">
+            June 28, 2004
+          </h3>
+        </div>
+
+        <div>
+          <p className="text-gray-400 mb-2">Birthplace</p>
+          <h3 className="text-2xl font-bold">
+            Perak, Malaysia
+          </h3>
+        </div>
+
+        <div>
+          <p className="text-gray-400 mb-2">Height</p>
+          <h3 className="text-2xl font-bold">
+            165 cm
+          </h3>
+        </div>
+
+      </div>
+
+      {/* RIGHT */}
+      <div className="space-y-8">
+
+        <div>
+          <p className="text-gray-400 mb-4">Hobbies</p>
+
+          <div className="flex flex-wrap gap-3">
+
+            {["Skating", "Singing", "Vlogging", "Painting"].map((item) => (
+              <span
+                key={item}
+                className="
+                  px-4
+                  py-2
+                  rounded-full
+                  bg-blue-600/20
+                  border
+                  border-blue-400/20
+                "
+              >
+                {item}
+              </span>
+            ))}
+
+          </div>
+        </div>
+
+        <div>
+          <p className="text-gray-400 mb-4">Special Skills</p>
+
+          <div className="flex flex-wrap gap-3">
+
+            {["Singing", "Dancing"].map((item) => (
+              <span
+                key={item}
+                className="
+                  px-4
+                  py-2
+                  rounded-full
+                  bg-blue-600
+                "
+              >
+                {item}
+              </span>
+            ))}
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+```
+
+);
+}
