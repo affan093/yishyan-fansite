@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Yishyan | KLP48 Official Fan Site",
+  title: "Yishyan's Fan Site",
   description:
-    "Official fan site dedicated to Foo Yi Shyan (Yishyan), captain of KLP48.",
+    "A fan-made website dedicated to Foo Yi Shyan (Yishyan), captain of KLP48.",
 };
 
 export default function RootLayout({
