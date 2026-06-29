@@ -99,7 +99,7 @@ export const outfitCategories = [
     id: "theatre",
     title: "Theatre & KLP Time",
     icon: "🎭",
-    count: 15,
+    count: 16,
     outfits: [
       {
         id: "cny-2025",
@@ -206,6 +206,13 @@ export const outfitCategories = [
         color: "from-yellow-400 to-orange-400",
         image: "/images/outfits/fan-time.jpg",
       },
+      {
+        id: "birthday-party2026",
+        name: "Yishyan Birthday Party 2026",
+        description: "",
+        color: "from-teal-400 via-sky-300 to-white",
+        image: "/images/outfits/birthday-party2026.jpg",
+      },
 
 
     ],
@@ -267,7 +274,7 @@ export const outfitCategories = [
     id: "special",
     title: "Special Events",
     icon: "✨",
-    count: 5,
+    count: 6,
     outfits: [
       
       {
@@ -304,6 +311,13 @@ export const outfitCategories = [
         description: "",
         color: "from-pink-500 to-rose-500",
         image: "/images/outfits/special-event.jpg",
+      },
+      {
+        id: "birthday-wish2026",
+        name: "Birthday Wish 2026",
+        description: "",
+        color: "from-white via-blue-100 to-blue-400",
+        image: "/images/outfits/birthday-wish2026.jpg",
       },
     ],
   },
