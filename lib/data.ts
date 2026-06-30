@@ -1369,20 +1369,6 @@ export const majorEvents: MajorEvent[] = [
     category: ["Live Performance"],
   },
   {
-    id: "japan-expo26day1-2026-07-24",
-    date: "2026-07-24",
-    title: "Japan Expo Malaysia 2026",
-    venue: "Shanghai, China",
-    category: ["Live Performance"],
-  },
-  {
-    id: "japan-expo26day2-2026-07-25",
-    date: "2026-07-25",
-    title: "Japan Expo Malaysia 2026",
-    venue: "Shanghai, China",
-    category: ["Live Performance"],
-  },
-  {
     id: "japan-expo26day3-2026-07-26",
     date: "2026-07-26",
     title: "Japan Expo Malaysia 2026",
@@ -1750,6 +1736,42 @@ export const theatreEvents: TheatreEvent[] = [
     venue: "KLP48 Theatre",
     category: "Birthday Party",
   },
+  {
+    id: "klp-time-klp-next-top-model-2026-07-04",
+    date: "2026-07-04",
+    title: "KLP Time: KLP's Next Top Model",
+    venue: "KLP48 Theatre",
+    category: "KLP Time",
+  },
+  {
+    id: "mini-live-show-2026-07-05",
+    date: "2026-07-05",
+    title: "Mini Live Show",
+    venue: "KLP48 Theatre",
+    category: "Mini Live",
+  },
+  {
+    id: "klp-time-salwa-birthday-party-2026-07-17",
+    date: "2026-07-17",
+    title: "KLP Time: Salwa's Birthday Party",
+    venue: "KLP48 Theatre",
+    category: "Birthday Party",
+  },
+  {
+    id: "klp-time-fun-game-with-members-2026-07-18",
+    date: "2026-07-18",
+    title: "KLP Time: Fun Game with Members",
+    venue: "KLP48 Theatre",
+    category: "KLP Time",
+  },
+  {
+    id: "mini-live-show-2026-07-19",
+    date: "2026-07-19",
+    title: "Mini Live Show",
+    venue: "KLP48 Theatre",
+    category: "Mini Live",
+  },
+
 ];
 
 export const specialAppearances = [
