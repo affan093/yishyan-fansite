@@ -1372,7 +1372,7 @@ export const majorEvents: MajorEvent[] = [
     id: "japan-expo26day3-2026-07-26",
     date: "2026-07-26",
     title: "Japan Expo Malaysia 2026",
-    venue: "Shanghai, China",
+    venue: "KLCC",
     category: ["Live Performance"],
   },
   {
