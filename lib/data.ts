@@ -1737,20 +1737,6 @@ export const theatreEvents: TheatreEvent[] = [
     category: "Birthday Party",
   },
   {
-    id: "klp-time-klp-next-top-model-2026-07-04",
-    date: "2026-07-04",
-    title: "KLP Time: KLP's Next Top Model",
-    venue: "KLP48 Theatre",
-    category: "KLP Time",
-  },
-  {
-    id: "mini-live-show-2026-07-05",
-    date: "2026-07-05",
-    title: "Mini Live Show",
-    venue: "KLP48 Theatre",
-    category: "Mini Live",
-  },
-  {
     id: "klp-time-salwa-birthday-party-2026-07-17",
     date: "2026-07-17",
     title: "KLP Time: Salwa's Birthday Party",
