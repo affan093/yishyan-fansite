@@ -222,7 +222,7 @@ export const outfitCategories = [
     id: "casual",
     title: "Casual & Outside Events",
     icon: "🌸",
-    count: 6,
+    count: 8,
     outfits: [
       
       {
@@ -267,6 +267,20 @@ export const outfitCategories = [
         color: "from-gray-500 to-zinc-600",
         image: "/images/outfits/yishyan-update-2026-2.jpg",
       },
+      {
+        id: "yishyan-update-2026-7-1",
+        name: "Yishyan Update",
+        description: "1 July 2026",
+        color: "from-stone-700 to-amber-600",
+        image: "/images/outfits/yishyan-update-2026-7-1.jpg",
+      },
+      {
+        id: "yishyan-update-2026-7-7",
+        name: "Yishyan Update",
+        description: "7 July 2026",
+        color: "from-red-500 to-pink-600",
+        image: "/images/outfits/yishyan-update-2026-7-7.jpg",
+      },
     ],
   },
 
@@ -274,7 +288,7 @@ export const outfitCategories = [
     id: "special",
     title: "Special Events",
     icon: "✨",
-    count: 6,
+    count: 7,
     outfits: [
       
       {
@@ -318,6 +332,13 @@ export const outfitCategories = [
         description: "",
         color: "from-white via-blue-100 to-blue-400",
         image: "/images/outfits/birthday-wish2026.jpg",
+      },
+      {
+        id: "bilibili-world-2026",
+        name: "BiliBili World 2026",
+        description: "",
+        color: "from-fuchsia-500 to-pink-500",
+        image: "/images/outfits/bilibili-world-2026.jpg",
       },
     ],
   },
@@ -1352,21 +1373,14 @@ export const majorEvents: MajorEvent[] = [
     date: "2026-07-10",
     title: "BiliBili World 2026",
     venue: "Shanghai, China",
-    category: ["Live Performance"],
+    category: ["Live Performance", "Meet & Greet"],
   },
   {
     id: "jam-shanghaiday1-2026-07-11",
     date: "2026-07-11",
-    title: "JAM Shanghai 2026 Summer Festival",
-    venue: "Shanghai, China",
-    category: ["Live Performance"],
-  },
-  {
-    id: "jam-shanghaiday2-2026-07-12",
-    date: "2026-07-12",
-    title: "JAM Shanghai 2026 Summer Festival",
-    venue: "Shanghai, China",
-    category: ["Live Performance"],
+    title: "48 Group Special Event",
+    venue: "National Exhibition and Convention Center, Shanghai, China",
+    category: ["Meet & Greet"],
   },
   {
     id: "japan-expo26day3-2026-07-26",
@@ -1388,6 +1402,13 @@ export const majorEvents: MajorEvent[] = [
     title: "KLP48 2nd Anniversary Celebration",
     venue: "KLP48 Theatre",
     category: ["Special Event"],
+  },
+  {
+    id: "anisama-concert-2026-09-12",
+    date: "2026-09-12",
+    title: "Anisama Concert",
+    venue: "ZEPP Kuala Lumpur",
+    category: ["Live Performance"],
   },
 
 ];
